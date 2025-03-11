@@ -30,8 +30,8 @@
   "binary": {
     "module_name": "module",
     "module_path": "./lib/binding/",
-    "host": "https://mapbox-node-binary.s3.amazonaws.com",
-    "remote_path": "./{name}/v{version}/{configuration}/{toolset}/",
+    "host": "https://github.com/mhalada/vtquery/releases/download",
+    "remote_path": "./v{version}/",
     "package_name": "{platform}-{arch}.tar.gz"
   }
 }
